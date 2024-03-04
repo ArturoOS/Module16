@@ -4,8 +4,8 @@
 console.log("TASK 1")
 let someBananasString = "I can eat bananas all day"
 console.log("Original string:" + someBananasString)
-someBananasString = someBananasString.toUpperCase()
-console.log("Uppercase string:" + someBananasString)
+let bananasString = someBananasString.slice(10,17).toUpperCase()
+console.log("Uppercase sliced string:" + bananasString)
 //alert(someBananasString)
 
 //TASK 2
